@@ -13,12 +13,12 @@ Files:
 ___
 
 The network model used is inspired on [Deeplab v3](https://arxiv.org/abs/1706.05587).
-The network is first trained with Cityscape datasets on the *train_fine* set. 
+The network is first trained with Cityscape datasets on the *train_fine* set only. 
 The weights are then fine-tuned on specific images for taxiing assistance purposes. 
 
 The image is partitioned in four classes:
-  1. Foreground Stuff
-  2. Grass
-  3. Runway
-  4. Sky
+  1. Foreground Stuff (ID 0)
+  2. Grass (ID 1)
+  3. Runway (ID 2)
+  4. Sky (ID 3)
 
