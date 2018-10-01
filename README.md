@@ -12,7 +12,7 @@ Files:
 
 ___
 
-The network model used is inspired on [Deeplab v3](https://arxiv.org/abs/1706.05587).
+The network model used is inspired from [Deeplab v3](https://arxiv.org/abs/1706.05587).
 The network is first trained with Cityscape datasets on the *train_fine* set only. 
 The weights are then fine-tuned on specific images for taxiing assistance purposes. 
 
@@ -21,4 +21,6 @@ The image is partitioned in four classes:
   2. Grass (ID 1)
   3. Runway (ID 2)
   4. Sky (ID 3)
+  
+  To run demo_deep_segmentation_for_taxiing.ipynb, you need to have Python and Caffe2 installed. 
 
