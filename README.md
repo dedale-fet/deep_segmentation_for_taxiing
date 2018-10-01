@@ -1,6 +1,6 @@
 # deep_segmentation_for_taxiing
 
-This is the source code implementation for deep segmentation for taxiing assistance purposes. 
+This is the source code implementation of deep segmentation for taxiing assistance purposes. 
 
 ___
 
